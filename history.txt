@@ -1,0 +1,1000 @@
+ 1002  ls
+ 1003  cd config
+ 1004  ls
+ 1005  cd ..
+ 1006  ls
+ 1007  cd launch/
+ 1008  ls
+ 1009  roslaunch telegram_robot echobot_example.launch
+ 1010  cd ..
+ 1011  rm telegram_ros -y
+ 1012  rm telegram_ros -r
+ 1013  sudorm telegram_ros -r
+ 1014  sudo +rm telegram_ros -r
+ 1015  sudo  rm telegram_ros -r
+ 1016  ls
+ 1017  cd telegram_robot/
+ 1018  ls
+ 1019  cd launch
+ 1020  ks
+ 1021  ls
+ 1022  roslaunch echobot_example.launch 
+ 1023  cd ..
+ 1024  cd 
+ 1025  cd ros
+ 1026  cd catkin_ws/src
+ 1027  ls
+ 1028  rm telegram_ros 
+ 1029  ln -s /home/ubuntu/src/MARRtinoSocial/telegram_robot/ .
+ 1030  cd ..
+ 1031  cd src/MARRtinoSocial/
+ 1032  cd chatbot/
+ 1033  ls
+ 1034  cd chatbot/
+ 1035  ls
+ 1036  cd scripts/
+ 1037  ls
+ 1038  cd ..
+ 1039  find . -name "*.pyc" -exec rm -f {} \;
+ 1040  ls
+ 1041  cd chatbot/
+ 1042  cd src
+ 1043  cd scripts/
+ 1044  ls
+ 1045  tmux
+ 1046  clear
+ 1047  rosnode list
+ 1048  rosnode info app_voice
+ 1049  rosnode info marrtino_chatbot
+ 1050  cd ..
+ 1051  find . -name '*.pyc' -delete
+ 1052  clear
+ 1053  sudo reboot
+ 1054  cd src
+ 1055  cd MARRtinoSocial/telegram_robot/
+ 1056  ls
+ 1057  cd launch
+ 1058  ls
+ 1059  roslaunch telegram_robot echobot_example.launch
+ 1060  pip list | grep html
+ 1061  cd ..
+ 1062  cd telegram
+ 1063  ls
+ 1064  python test.py 
+ 1065  cat test.py 
+ 1066  python test.py 
+ 1067  cd 
+ 1068  cd src
+ 1069  ls
+ 1070  sudo rm homer_robot_face/ -r
+ 1071  sudo rm marrtino_apps_old/ -r
+ 1072  sudo rm marrtino_apps_08042020/ -r
+ 1073  cd MARRtinoSocial/
+ 1074  ls
+ 1075  sudo rm telegram_robot/ -r
+ 1076  ls
+ 1077  ls -l
+ 1078  cat test.launch 
+ 1079  ls
+ 1080  cd telegram/
+ 1081  ls
+ 1082  python test.py 
+ 1083  cd
+ 1084  clear
+ 1085  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1086  cd ros/catkin_ws/
+ 1087  catkin_make
+ 1088  ls
+ 1089  cd src
+ 1090  cd marrtino_chatbot
+ 1091  ls
+ 1092  cd ..
+ 1093  file marrtino_chatbot
+ 1094  cd
+ 1095  cd src/MARRtinoSocial/
+ 1096  ls -s marrtino_chatbot/
+ 1097  ls
+ 1098  ln -s marrtino_chatbot/
+ 1099  ln -s marrtino_chatbot_link ./marrtino_chatbot/
+ 1100  ln -s ./marrtino_chatbot/ link
+ 1101  ln -s /home/ubuntu/src/MARRtinoSocial/marrtino_chatbot/ link
+ 1102  tmux
+ 1103  &clear
+ 1104  clear
+ 1105  rostopic echo /chatbot_app
+ 1106  cd face_reset/
+ 1107  python face_reset_A.py 
+ 1108  cd marrtino_chatbot/
+ 1109  ls
+ 1110  cd chatbot/
+ 1111  cd scripts/
+ 1112  ls
+ 1113  python start_conversation.py 
+ 1114  clear
+ 1115  python start_conversation.py 
+ 1116  cd ../scripts
+ 1117  cd ../scripts/
+ 1118  sudo reboot
+ 1119  cd src/
+ 1120  cd MARRtinoSocial/
+ 1121  ls
+ 1122  ls | file
+ 1123  file *
+ 1124  ls
+ 1125  git status
+ 1126  git stage all
+ 1127  git stage *
+ 1128  git status
+ 1129  git add face_reset/
+ 1130  git add marrtino_chatbot/
+ 1131  git status
+ 1132  git add face_reset/
+ 1133  ls
+ 1134  git status
+ 1135  clear
+ 1136  git status
+ 1137  ls
+ 1138  cd face_reset/
+ 1139  ls
+ 1140  git status
+ 1141  git stage face_reset_A.py 
+ 1142  git push
+ 1143  cd ..
+ 1144  git status
+ 1145  git remote add https://github.com/artigianitecnologici/MARRtinoSocial
+ 1146  git init
+ 1147  git remote add https://github.com/artigianitecnologici/MARRtinoSocial
+ 1148  git remote add origin https://github.com/artigianitecnologici/MARRtinoSocial
+ 1149  git status
+ 1150  git add *
+ 1151  ls
+ 1152  git status
+ 1153  cd marrtino_chatbot/
+ 1154  git status
+ 1155  cd .git/
+ 1156  ls
+ 1157  cd ..
+ 1158  rm -rf .git/
+ 1159  cd ..
+ 1160  cd face_reset/
+ 1161  ls
+ 1162  rm -rf .git/
+ 1163  cd ..
+ 1164  git add *
+ 1165  git commit -m "update 18/09"
+ 1166  git status
+ 1167  git commit
+ 1168  git confgi --global user.mail "TO@DO.com"
+ 1169  git config --global user.mail "TO@DO.com"
+ 1170  git commit
+ 1171  git config --global user.name "artigianitecnologici"
+ 1172  git commit 
+ 1173  git config --global user.mail "ubuntu@ubuntu.com"
+ 1174  git commit
+ 1175  cd .git/
+ 1176  ls
+ 1177  nano config 
+ 1178  git config --global user.mail "ubuntu@ubuntu.com"
+ 1179  cd ..
+ 1180  git commit
+ 1181  git config --get-all user.name
+ 1182  git config --get-all user.email
+ 1183  git config --global user.email "ubuntu@ubuntu.com"
+ 1184  git status
+ 1185  git push
+ 1186  git push --set-upstream origin master
+ 1187  git status
+ 1188  git add *
+ 1189  git status
+ 1190  git commit -m "-"
+ 1191  git push
+ 1192  git add remote origin https://github.com/artigianitecnologici/MARRtinoSocial
+ 1193  git remote add origin https://github.com/artigianitecnologici/MARRtinoSocial
+ 1194  cd ..
+ 1195  cd MARRtinoSocial/
+ 1196  ls
+ 1197  cd ..
+ 1198  mv ./MARRtinoSocial/ ./MARRtinoSocial.old
+ 1199  cd MARRtinoSocial.old/
+ 1200  ls
+ 1201  cd ..
+ 1202  git clone https://github.com/artigianitecnologici/MARRtinoSocial
+ 1203  cd MARRtinoSocial
+ 1204  ls
+ 1205  file social_start.sh 
+ 1206  sudo chmod +x *.sh
+ 1207  ls
+ 1208  git status
+ 1209  git stage *
+ 1210  git commit -m "-"
+ 1211  git push
+ 1212  exit
+ 1213  clear
+ 1214  tmux
+ 1215  cd ros/catkin_ws/
+ 1216  catkin_make
+ 1217  cd
+ 1218  cd src/MARRtinoSocial
+ 1219  ls
+ 1220  ./social_start.sh 
+ 1221  rosnode list
+ 1222  cd 
+ 1223  cd src/MARRtinoSocial
+ 1224  ls
+ 1225  cd ..
+ 1226  cd MARRtinoSocialol
+ 1227  cd MARRtinoSocial.old/
+ 1228  ls
+ 1229  cd ..
+ 1230  cd MARRtinoSocial
+ 1231  ls
+ 1232  git pull
+ 1233  cd
+ 1234  cd ros/catkin_ws/
+ 1235  catkin_make
+ 1236  sudo reboot
+ 1237  cd src
+ 1238  git clone https://github.com/arebgun/dynamixel_motor.git
+ 1239  cd 
+ 1240  cd ros
+ 1241  cd catkin_ws/src
+ 1242  ls
+ 1243  rm dynamixel_motor 
+ 1244  ln -s /home/ubuntu/src/dynamixel_motor/ .
+ 1245  ls
+ 1246  rm telegram_robot 
+ 1247  ls
+ 1248  cd ..
+ 1249  catkin_make
+ 1250  rostopic list
+ 1251  clear
+ 1252  cd src/MARRtinoSocial
+ 1253  ls
+ 1254  cd program/
+ 1255  ls
+ 1256  cd ..
+ 1257  ls
+ 1258  cd script/
+ 1259  ls
+ 1260  python startface.py 
+ 1261  cd ..
+ 1262  cd face_reset/
+ 1263  python face_reset_A.py
+ 1264  clear
+ 1265  cd src/MARRtinoSocial
+ 1266  ./social_start.sh 
+ 1267  cd src
+ 1268  cd /var
+ 1269  cd www
+ 1270  ls
+ 1271  cd html
+ 1272  ls
+ 1273  cat index.html 
+ 1274  cd marrtino
+ 1275  ls
+ 1276  sudo ln -s /home/ubuntu/src/MARRtinoSocial/www/social/ .
+ 1277  ls
+ 1278  sudo pico index.htm
+ 1279  cd
+ 1280  cd src
+ 1281  cd MARRtinoSocial
+ 1282  ls
+ 1283  cd marrtino_chatbot/
+ 1284  ls
+ 1285  cd launch
+ 1286  ls
+ 1287  roslaunch chatbot_app.launch 
+ 1288  cd ..
+ 1289  ld
+ 1290  ls
+ 1291  ls chatbot/
+ 1292  cd ..
+ 1293  cd 
+ 1294  cd ros
+ 1295  cd catkin_ws/src
+ 1296  ls
+ 1297  cd marrtino_chatbot
+ 1298  ls
+ 1299  ls -la
+ 1300  cd ..
+ 1301  ls -la
+ 1302  cd
+ 1303  cd src
+ 1304  cd MARRtinoSocial
+ 1305  ls
+ 1306  cd marrtino_chatbot/
+ 1307  ls
+ 1308  cd lauch
+ 1309  ls
+ 1310  cd launch/
+ 1311  ls
+ 1312  roslaunch chatbot_app.launch 
+ 1313  sudo pico chatbot_app.launch 
+ 1314  roscd marrtino_chatbot
+ 1315  ls
+ 1316  ls chatbot/
+ 1317  ls 
+ 1318  ls chatbot/
+ 1319  cd
+ 1320  cd ros 
+ 1321  cd catkin_ws/
+ 1322  catkin_make clear
+ 1323  catkin_make clean
+ 1324  sudo halt
+ 1325  cd src
+ 1326  cd MARRtinoSocial
+ 1327  ls
+ 1328  cd marrtino_chatbot/
+ 1329  ls
+ 1330  cd 
+ 1331  cd src/MARRtinoSocial/marrtino_chatbot/
+ 1332  cd launch
+ 1333  ls
+ 1334  cat chatbot_app.launch 
+ 1335  roslaunch chatbot_app.launch 
+ 1336  cd ..
+ 1337  ls
+ 1338  ls chatbot
+ 1339  sudo halt
+ 1340  cd src
+ 1341  cd MARRtinoSocial
+ 1342  ls
+ 1343  cd marrtino_chatbot/
+ 1344  ls
+ 1345  ls launch
+ 1346  cd ..
+ 1347  cd face_reset
+ 1348  ls
+ 1349  roscd face_reset
+ 1350  python face_reset_A.py 
+ 1351  cd src
+ 1352  cd MARRtinoSocial
+ 1353  cd marrtino_chatbot/
+ 1354  cd launch
+ 1355  ls
+ 1356  roslaunch chatbot_app.launch 
+ 1357  ls
+ 1358  roslaunch ./chatbot_
+ 1359  roslaunch ./chatbot_app.launch 
+ 1360  cd ..
+ 1361  ls
+ 1362  cd ..
+ 1363  cd
+ 1364  cd src/
+ 1365  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1366  cd .
+ 1367  roscd
+ 1368  cd ..
+ 1369  cd src
+ 1370  ls
+ 1371  file marrtino_chatbot
+ 1372  rm marrtino_chatbot
+ 1373  man ln
+ 1374  ln -s /home/ubuntu/src/MARRtinoSocial/marrtino_chatbot/ .
+ 1375  ls
+ 1376  file marrtino_chatbot
+ 1377  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1378  cd ..
+ 1379  catkin_make
+ 1380  roscd marrtino_chatbot/
+ 1381  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1382  cd ..
+ 1383  file marrtino_chatbot
+ 1384  cd marrtino_chatbot
+ 1385  ls
+ 1386  cd launch/
+ 1387  nano chatbot_app.launch 
+ 1388  chmod +x *
+ 1389  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1390  rosnode list
+ 1391  cd ..
+ 1392  cd chatbot/
+ 1393  cd scripts/
+ 1394  ls
+ 1395  chmod +x *.py
+ 1396  ls
+ 1397  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1398  mv aux%00.py ./aux.py
+ 1399  roslaunch marrtino_chatbot chatbot_app.launch 
+ 1400  sudo reboot
+ 1401  cd src
+ 1402  cd MARRtinoSocial
+ 1403  cd face_reset/
+ 1404  ls
+ 1405  python face_reset_A.py 
+ 1406  sudo halt
+ 1407  cd src
+ 1408  cd MARRtinoSocial
+ 1409  cd scrip
+ 1410  cd script
+ 1411  export DISPLAY=:0.0
+ 1412  ls
+ 1413  ps
+ 1414  kill 2953
+ 1415  ps
+ 1416  kill hekp
+ 1417  kill 2953
+ 1418  sudo kill 2953
+ 1419  ps
+ 1420  kill all
+ 1421  kill -help
+ 1422  kill --help
+ 1423  kill -n 2953
+ 1424  ps
+ 1425  ls
+ 1426  ./startface.py 
+ 1427  sudo halt
+ 1428  cd src
+ 1429  cd MARRtinoSocial
+ 1430  cd script
+ 1431  ls
+ 1432  sudo chmod +x *.py
+ 1433  ls
+ 1434  ./startface.py 
+ 1435  sudo apt update
+ 1436  sudo apt-get install -y xdotool.
+ 1437  sudo apt-get install -y xdotool
+ 1438  ls
+ 1439  sudo pico readme.txt
+ 1440  ./startface.py 
+ 1441  ls
+ 1442  ./startface.py 
+ 1443  sudo halt
+ 1444  rostopic list
+ 1445  ls
+ 1446  cd src
+ 1447  cd MARRtinoSocial
+ 1448  ls
+ 1449  cd program/
+ 1450  ls
+ 1451  python emotion_test.py 
+ 1452  sudo halt
+ 1453  rostopic list
+ 1454  cd src
+ 1455  cd MARRtinoSocial
+ 1456  ls
+ 1457  cd launch
+ 1458  ls
+ 1459  roslaunch websocket.launch 
+ 1460  sudo halt
+ 1461  rostopic list
+ 1462  ls
+ 1463  cd src
+ 1464  cd MARRtinoSocial
+ 1465  ls
+ 1466  cat social_start.sh 
+ 1467  cat social.launch 
+ 1468  roslaunch social.launch
+ 1469  sudo reboot
+ 1470  ls
+ 1471  cd src
+ 1472  cd MARRtinoSocial
+ 1473  ls
+ 1474  cd face_reset
+ 1475  ls
+ 1476  sudo chmod +x face_reset_A.py 
+ 1477  ls
+ 1478  python face_reset_A.py 
+ 1479  sudo halt
+ 1480  ls
+ 1481  cd src
+ 1482  cd MARRtinoSocial
+ 1483  ls
+ 1484  ./social_start.sh
+ 1485  cd $HOME/src/srrg/srrg2_orazio/srrg2_orazio/firmware_build/atmega2560
+ 1486  make clean
+ 1487  make
+ 1488  make orazio.hex
+ 1489  sudo halt
+ 1490  ls
+ 1491  cd /home/ubuntu/src/marrtino_apps/robot
+ 1492  roslaunch robot.launch 
+ 1493  cd /home/ubuntu/src/modim/src/GUI
+ 1494  python ws_server.py -robot marrtino
+ 1495  roscore
+ 1496  sudo halt
+ 1497  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1498  roslaunch teleop.launch use_4wd:=true &
+ 1499  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1500  python joy4w.py 
+ 1501  cd /home/ubuntu/src/modim/src/GUI
+ 1502  python ws_server.py -robot marrtino
+ 1503  cd /home/ubuntu/src/marrtino_apps/blockly
+ 1504  python websocket_robot.py 
+ 1505  cd /home/ubuntu/src/marrtino_apps/robot
+ 1506  roslaunch robot.launch 
+ 1507  sudo halt
+ 1508  cd /home/ubuntu/src/modim/src/GUI
+ 1509  python ws_server.py -robot marrtino
+ 1510  cd /home/ubuntu/src/marrtino_apps/robot
+ 1511  roslaunch robot.launch 
+ 1512  roscore
+ 1513  cd /home/ubuntu/src/marrtino_apps/blockly
+ 1514  python websocket_robot.py 
+ 1515  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1516  roslaunch teleop.launch use_4wd:=true &
+ 1517  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1518  python joy4w.py 
+ 1519  sudo halt
+ 1520  cd /home/ubuntu/src/modim/src/GUI
+ 1521  python ws_server.py -robot marrtino
+ 1522  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1523  roslaunch teleop.launch use_4wd:=true &
+ 1524  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1525  python joy4w.py 
+ 1526  cd /home/ubuntu/src/marrtino_apps/blockly
+ 1527  python websocket_robot.py 
+ 1528  ls
+ 1529  ./raspi-config.sh 
+ 1530  sudo halt
+ 1531  ls /dev/tty*
+ 1532  ls /dev/tty*
+ 1533  cat /dev/ttyUSB0 
+ 1534  sudo halt
+ 1535  cd /home/ubuntu/src/marrtino_apps/robot
+ 1536  roslaunch robot.launch 
+ 1537  cd /home/ubuntu/src/modim/src/GUI
+ 1538  python ws_server.py -robot marrtino
+ 1539  roscore
+ 1540  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1541  roslaunch teleop.launch use_4wd:=true &
+ 1542  cd /home/ubuntu/src/marrtino_apps/teleop
+ 1543  python joy4w.py 
+ 1544  cat /dev/ttyACM1
+ 1545  sudo halt
+ 1546  rostopic list
+ 1547  rostopic lisst
+ 1548  rostopic list
+ 1549  ls
+ 1550  cd src
+ 1551  ls
+ 1552  cd 
+ 1553  ls
+ 1554  ls /dev/tty*
+ 1555  rosrun rosserial_python serial_node.py /dev/ttyACM0
+ 1556  sudo halt
+ 1557  cd /home/ubuntu/src/modim/src/GUI
+ 1558  python ws_server.py -robot marrtino
+ 1559  cd /home/ubuntu/src/marrtino_apps/blockly
+ 1560  python websocket_robot.py 
+ 1561  ls
+ 1562  cd src
+ 1563  ls
+ 1564  rostopic list
+ 1565  cd ..
+ 1566  pico bringup.sh
+ 1567  ls /dev/tty*
+ 1568  ls
+ 1569  sudo chmod +x bringup.sh 
+ 1570  ls
+ 1571  cat bringup.sh 
+ 1572  ./bringup.sh 
+ 1573  sudo reboot
+ 1574  ls /dev/tty*
+ 1575  sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
+ 1576  sudo reboot
+ 1577  rostopic list
+ 1578  rostopic echo /mavros/state
+ 1579  sudo apt-get install python-dev python-opencv python-wxgtk4.0 python-pip python-matplotlib python-lxml python-pygame
+ 1580  pip install PyYAML mavproxy --user
+ 1581  sudo pip install PyYAML mavproxy --user
+ 1582  sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
+ 1583  wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+ 1584  sudo bash ./install_geographiclib_datasets.sh
+ 1585  roslaunch mavros px4.launch
+ 1586  ls
+ 1587  cd src
+ 1588  ks
+ 1589  ls
+ 1590  cd marrtino_apps/
+ 1591  git pull
+ 1592  git fetch origin master
+ 1593  git reset --hard FETCH_HEAD
+ 1594  git clean -df
+ 1595  git pull
+ 1596  cd ..
+ 1597  ls
+ 1598  git clone https://github.com/artigianitecnologici/marrtino_r3d
+ 1599  cd ..exit
+ 1600  ls
+ 1601  git clone https://github.com/artigianitecnologici/marrtino_r3d
+ 1602  ifconfig
+ 1603  sudo halt
+ 1604  cd src
+ 1605  ls
+ 1606  cd marrtino_r3d/
+ 1607  ls
+ 1608  mkdir script
+ 1609  cd script
+ 1610  pico mavros_start.sh
+ 1611  ls
+ 1612  rostopic lis
+ 1613  rostopic list
+ 1614  cd src
+ 1615  ls
+ 1616  ls /dev/tty*
+ 1617  IFCONFIG
+ 1618  ifconfig
+ 1619  top
+ 1620  sudo reboot
+ 1621  pico mavros_start.sh
+ 1622  ls
+ 1623  sudo chmod +x *.sh
+ 1624  ./mavros_start.sh 
+ 1625  pico mavros_start.sh
+ 1626  rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:921600 _gcs_url:=udp://@192.168.1.13
+ 1627  ls
+ 1628  cd Desktop/
+ 1629  ls
+ 1630  cat mavrosinstall.txt 
+ 1631  sudo halt
+ 1632  mavproxy.py
+ 1633  sudo pico mavproxy.sh
+ 1634  ls
+ 1635  sudo chmod +x mavproxy.sh 
+ 1636  ls
+ 1637  ./mavproxy.sh 
+ 1638  ls /dev/tty*
+ 1639  sudo pico mavproxy.sh 
+ 1640  ./mavproxy.sh 
+ 1641  ls
+ 1642  sudo halt
+ 1643  ls
+ 1644  rostopic list
+ 1645  cd src
+ 1646  ls
+ 1647  cd marrtino_
+ 1648  ls /dev/tty*
+ 1649  cd ..
+ 1650  sudo pico mavproxy_start.sh
+ 1651  sudo pico /etc/mavlink-router/main.conf/etc/mavlink-router/main.conf
+ 1652  cd src
+ 1653  git clone https://github.com/rover_r3d.git
+ 1654  git clone https://github.com/artigianitecnologici/rover_r3d.git
+ 1655  cd rover_r3d/
+ 1656  ls
+ 1657  cd install
+ 1658  ls
+ 1659  cd
+ 1660  cd src
+ 1661  git clone https://github.com/mavlink-router/mavlink-router.git
+ 1662  cd ..
+ 1663  mavproxy.py --master=/dev/ttyAMA0 --baudrate 921600
+ 1664  ls /dev/tty*
+ 1665  mavproxy.py --master=/dev/ttyACM0 --baudrate 921600
+ 1666  cd src
+ 1667  cd rover_r3d/
+ 1668  ls
+ 1669  wget https://raw.githubusercontent.com/dronekit/dronekit-python/3222b2cdb71b8b4c5b924ee28fc5d3529be00e67/scripts/mavgateway
+ 1670  ls
+ 1671  sudo pico mavgateway 
+ 1672  ls
+ 1673  mavproxy.py –master=udpout:10.3.1.1:14550
+ 1674  ifconfig
+ 1675  mavproxy.py –master=udpout:10.3.1.1:14550
+ 1676  mavproxy.py –master=udpout0.0.0.0:14550
+ 1677  sudo services
+ 1678  sudo service
+ 1679  sudo service mavgateway status
+ 1680  cd src
+ 1681  cd rover_r3d/
+ 1682  ls
+ 1683  cd install/
+ 1684  ls
+ 1685  sudo cp  /etc/init.d/mavgateway mavgateway
+ 1686  ls
+ 1687  sudo pico mavgateway 
+ 1688  sudo service mavgateway status
+ 1689  mavproxy.py –master=udpout:10.3.1.1:14550
+ 1690  mavproxy.py 
+ 1691  mavproxy.py --out 10.2.1.152:14550
+ 1692  ls /dev/tty*
+ 1693  mavproxy.py --out /dev/ttyUSB0
+ 1694  mavproxy.py --master=/dev/ttyACM0 --baudrate 921600 --out /dev/ttyUSB0
+ 1695  mavproxy.py --master=/dev/ttyACM0,921600 --out /dev/ttyUSB0,57600
+ 1696  ls
+ 1697  cd ..
+ 1698  ls
+ 1699  sudo pico start_telemetria.sh
+ 1700  ls
+ 1701  sudo chmod +x *.sh
+ 1702  ls
+ 1703  rm mavgateway.save 
+ 1704  cd install
+ 1705  ls
+ 1706  cat install_mavgateway.sh 
+ 1707  sudo update-rc.d mavgateway remove
+ 1708  sudo rm /etc/init.d/mavgateway
+ 1709  sudo reboot
+ 1710  cd src
+ 1711  sudo service mavgateway status
+ 1712  cd src
+ 1713  cd rover_r3d/
+ 1714  ls
+ 1715  cd install
+ 1716  ls
+ 1717  rm mav.tlog
+ 1718  rm mav.tlog.raw 
+ 1719  rm mav.parm+
+ 1720  rm mav.parm
+ 1721  cd ..
+ 1722  ls
+ 1723  ./start_telemetria.sh 
+ 1724  ls /dev/tty*
+ 1725  ./start_telemetria.sh 
+ 1726  sudo pico start_telemetria.sh 
+ 1727  ./start_telemetria.sh 
+ 1728  sudo halt
+ 1729  cd src
+ 1730  ls
+ 1731  cd rover_r3d/
+ 1732  ls
+ 1733  cd install/
+ 1734  ls
+ 1735  sudo pico mavgateway 
+ 1736  sudo pico install_mavgateway.sh 
+ 1737  ./install_mavgateway.sh 
+ 1738  sudo update-rc.d mavgateway defaults
+ 1739  sudo reboot
+ 1740  sudo service mavgateway status
+ 1741  cd src
+ 1742  ls
+ 1743  cd robot_r3d
+ 1744  cd rover_r3d/
+ 1745  ls
+ 1746  ./start_telemetria.sh 
+ 1747  ls
+ 1748  sudo update-rc.d mavgateway remove
+ 1749  sudo rm /etc/init.d/mavgateway
+ 1750  sudo reboot
+ 1751  cd src
+ 1752  cd rover_r3d/
+ 1753  ls
+ 1754  ./start_telemetria.sh 
+ 1755  ls
+ 1756  cat mavproxy
+ 1757  cat mavproxy.sh
+ 1758  rm mavproxy.sh
+ 1759  ls
+ 1760  cd src
+ 1761  ls
+ 1762  cd rover_r3d/
+ 1763  ls
+ 1764  ./start_telemetria.sh 
+ 1765  sudo halt
+ 1766  cd src
+ 1767  cd rover_r3d/
+ 1768  ls
+ 1769  ./start_telemetria.sh 
+ 1770  sudo halt
+ 1771  cd src
+ 1772  cd rover_r3d/
+ 1773  ls
+ 1774  ./start_telemetria.sh 
+ 1775  sudo halt
+ 1776  ls
+ 1777  cd src
+ 1778  ls
+ 1779  cd rover_r3d/
+ 1780  ls
+ 1781  ./start_telemetria.sh 
+ 1782  ls
+ 1783  cd src
+ 1784  ls
+ 1785  cd rover_r3d/
+ 1786  ls
+ 1787  cat start_telemetria.sh 
+ 1788  cd install
+ 1789  ls
+ 1790  sudo pico mavgateway 
+ 1791  ls
+ 1792  ./install_mavgateway.sh 
+ 1793  sudo pico install_mavgateway.sh 
+ 1794  sudo update-rc.d mavgateway defaults
+ 1795  sudo service mavgateway status
+ 1796  sudo reboot
+ 1797  ls
+ 1798  sudo service mavgateway status
+ 1799  cd sr
+ 1800  cd src
+ 1801  cd rover_r3d/
+ 1802  ls
+ 1803  mavproxy.py --master=/dev/ttyACM0,921600 --out /dev/ttyUSB0,57600 --daemon
+ 1804  cd install
+ 1805  ls
+ 1806  sudo pico mavgateway 
+ 1807  ./install_mavgateway.sh 
+ 1808  sudo reboot
+ 1809  sudo service mavgateway status
+ 1810  sudo service mavgateway start
+ 1811  sudo service mavgateway status
+ 1812  sudo update-rc.d mavgateway removeù
+ 1813  sudo update-rc.d mavgateway remove
+ 1814  cd src
+ 1815  cd rover3d
+ 1816  cd rover_r3d/
+ 1817  ls
+ 1818  ./start_telemetria.sh &
+ 1819  ./start_telemetria.sh 
+ 1820  sudo reboot
+ 1821  cd src
+ 1822  cd rover_r3d/
+ 1823  ls
+ 1824  ./start_telemetria.sh 
+ 1825  mavproxy.py --master=/dev/ttyACM0,921600 --out=/dev/ttyUSB0,57600
+ 1826  ls /dev/tty*
+ 1827  mavproxy.py --master=/dev/ttyACM0,921600 --out /dev/ttyUSB0,57600
+ 1828  cd install/
+ 1829  ls
+ 1830  ./install_mavgateway.sh 
+ 1831  sudo reboot
+ 1832  cd src
+ 1833  mavproxy.py --master=/dev/ttyACM0,921600 --out /dev/ttyUSB0,57600 --daemon
+ 1834  cd rover
+ 1835  cd rover_r3d/
+ 1836  cd install
+ 1837  ls
+ 1838  sudo pico mavgateway 
+ 1839  ./install_mavgateway.sh 
+ 1840  sudo reboot
+ 1841  ls
+ 1842  cd src
+ 1843  sudo update-rc.d mavgateway remove
+ 1844  cd src
+ 1845  cd rover_r3d/
+ 1846  cd install
+ 1847  ls
+ 1848  sudo pico mavgateway 
+ 1849  sudo pico install_mavgateway 
+ 1850  sudo pico install_mavgateway.sh 
+ 1851  cat install_mavgateway.sh 
+ 1852  sudo rm /etc/init.d/mavgateway 
+ 1853  cd ..
+ 1854  mavproxy.py --master=/dev/ttyACM0,921600 --out=/dev/ttyUSB0,57600 --daemon
+ 1855  mavproxy.py --master=/dev/ttyACM0,921600 --out=/dev/ttyUSB0,57600 --daemon &
+ 1856  sudo halt
+ 1857  cd src
+ 1858  cd rover_r3d/
+ 1859  ls
+ 1860  sudo cp start_telemetria.sh  start_teld.sh
+ 1861  sudo pico start_teld.sh 
+ 1862  ./start_teld.sh &
+ 1863  sudo pico start_teld.sh 
+ 1864  ./start_teld.sh &
+ 1865  cd src
+ 1866  cd rover_r3d/
+ 1867  ls
+ 1868  ./start_teld.sh &
+ 1869  sudo halt
+ 1870  ls
+ 1871  cd src
+ 1872  ls
+ 1873  cd rover_r3d/
+ 1874  ls
+ 1875  ./start_teld.sh &
+ 1876  cd src
+ 1877  ls
+ 1878  cd rover_r3d/
+ 1879  ls
+ 1880  ./start_teld.sh &
+ 1881  sudo halt
+ 1882  cd src
+ 1883  cd rover_r3d/
+ 1884  ls
+ 1885  ./start_teld.sh &
+ 1886  sudo reboot
+ 1887  cd src
+ 1888  cd rover_r3d/
+ 1889  ls
+ 1890  ./start_teld.sh &
+ 1891  cd src
+ 1892  cd rover_r3d/
+ 1893  ls
+ 1894  ./start_teld.sh &
+ 1895  sudo reboot
+ 1896  cd src
+ 1897  cd rover_r3d/
+ 1898  ls
+ 1899  ./start_teld.sh &
+ 1900  sudo r
+ 1901  sudo reboot
+ 1902  sudo halt
+ 1903  cd src
+ 1904  cd rover_r3d/
+ 1905  ls
+ 1906  ls /dev/tty*
+ 1907  ls
+ 1908  sudo pico start_telemetria.sh 
+ 1909  ls
+ 1910  ./start_telemetria.sh 
+ 1911  sudo pico start_telemetria.sh 
+ 1912  ./start_telemetria.sh 
+ 1913  ls
+ 1914  cd src
+ 1915  cd rover_r3d/
+ 1916  ls
+ 1917  ./start_teld.sh &
+ 1918  cd srcf
+ 1919  cd src/
+ 1920  cd rover_r3d/
+ 1921  ls
+ 1922  ./start_teld.sh &
+ 1923  sudo halt
+ 1924  ls
+ 1925  ./mavros_start.sh 
+ 1926  cat mavros_start.sh 
+ 1927  ls
+ 1928  sudo halt
+ 1929  ls
+ 1930  cd /etc/NetworkManager/
+ 1931  ls
+ 1932  cd system-connections/
+ 1933  ls
+ 1934  exit
+ 1935  ls
+ 1936  sudo pico mavros_start.sh 
+ 1937  ./mavros_start.sh 
+ 1938  ls
+ 1939  cd etc 
+ 1940  cd /etc/NetworkManager/system-connections/
+ 1941  ls
+ 1942  sudo nmcli c up Vodafone-35176804 
+ 1943  ls
+ 1944  sudo pico mavros_start.sh 
+ 1945  ./mavros_start.sh 
+ 1946  ls
+ 1947  cat bringup.sh 
+ 1948  cat mavproxy_start.sh 
+ 1949  ./mavros_start.sh 
+ 1950  ls
+ 1951  cat mavros_start.sh 
+ 1952  ./mavros_start.sh 
+ 1953  ls
+ 1954  lsusb
+ 1955  ls /dev/
+ 1956  ls
+ 1957  ./raspi-config.sh 
+ 1958  sudo halt
+ 1959  ls /dev
+ 1960  ls /dev/tty*
+ 1961  ls
+ 1962  cat mavros_start.sh 
+ 1963  ifconfig
+ 1964  cat mavros_start.sh 
+ 1965  ifconfig
+ 1966  l
+ 1967  pico mavros_start.sh 
+ 1968  ./mavros_start.sh 
+ 1969  sudo reboot
+ 1970  ls /dev/tty*
+ 1971  ./bringup.sh 
+ 1972  sudo apt install ros-melodic-rosserial-arduino
+ 1973  sudo reboot
+ 1974  sudo apt install ros-melodic-rosserial-arduino
+ 1975  sudo apt update
+ 1976  sudo apt install ros-melodic-rosserial-arduino
+ 1977  cd src
+ 1978  git clone http://github/artigianitecnologici/marrtino_r3d
+ 1979  cd marrtino_r3d
+ 1980  git pull
+ 1981  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+ 1982  sudo apt update
+ 1983  cd
+ 1984  ./bringup.sh 
+ 1985  cat bringup.sh 
+ 1986  ls
+ 1987  cat bringup.sh 
+ 1988  sudo reboot
+ 1989  ls
+ 1990  cat bringup.sh 
+ 1991  ./bringup.sh 
+ 1992  wget https://downloads.arduino.cc/arduino-1.8.10-linux64.tar.xz
+ 1993  ls /dev/tty*
+ 1994  sudo reboot
+ 1995  ls
+ 1996  cd arduino/
+ 1997  ls
+ 1998  ./arduino
+ 1999  sudo halt
+ 2000  history
+ 2001  history > history.txt
